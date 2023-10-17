@@ -55,7 +55,7 @@ ROOT_URLCONF = 'MyGitProject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['LearnGit/Templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
