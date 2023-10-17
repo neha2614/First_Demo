@@ -25,7 +25,7 @@ SECRET_KEY = '9!ga^j04gm@2rack$=6p)3=vofvdicpy#oilyxbmj!p1tr00wd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost"]
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'LearnGit',
 ]
 
 MIDDLEWARE = [
